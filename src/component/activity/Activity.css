@@ -1,0 +1,47 @@
+.activity{
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    width: 300px;
+    border: 1px solid rgba(112, 112, 112, 0.253);
+    border-radius: 10px;
+    position: relative;
+}
+.activity img{
+    height: 200px;
+    width: 286px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.activity h3{
+    font-size: 20px;
+    padding: 0 15px;
+    margin-bottom: 5px;
+}
+.activity p{
+    font-size: 18px;
+    padding: 0 15px;
+    margin-top: 0;
+}
+.activity div{
+    margin-bottom: 0px;
+}
+.activity div p{
+    margin: 5px;
+    padding-left: 13px;
+    font-size: 12px;
+}
+.activity button{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+    align-items: center;
+}
+.activity button p{
+   margin-top: 10px;
+}
