@@ -7,7 +7,7 @@ const Details = () => {
             <div className='about'>
                     <img src="syed.jpeg" alt="" />
                     <div>
-                        <h1>Syed Ahammad</h1>
+                        <h3>Syed Ahammad</h3>
                         <p>Feni, Chottogram, Bangladesh</p>
                     </div>
                 </div>

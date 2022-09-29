@@ -1,0 +1,18 @@
+.break .btn-group{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+}
+.break .btn-group button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.break .btn-group button:hover{
+    background-color: green;
+    color: white;
+}
+.break .btn-group button span{
+    font-size: 12px;
+}
