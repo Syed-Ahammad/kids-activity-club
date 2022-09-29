@@ -2,7 +2,7 @@ import React from 'react';
 import './Activity.css'
 
 const Activity = ({activity, handleAddToCart}) => {
-    const {id, picture, activityName, time, age, about} = activity;
+    const {picture, activityName, time, age, about} = activity;
     return (
         <div className='activity'>
             <img src={picture} alt="" />

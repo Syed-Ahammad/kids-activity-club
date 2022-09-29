@@ -5,7 +5,7 @@ import './Activities.css'
 const Activities = ({activities, handleAddToCart}) => {
     return (
         <div>
-             <div className="product-container">
+             <div className="activities-container">
                {activities.map(activity => <Activity activity={activity}key={activity.id} handleAddToCart={handleAddToCart}></Activity>)}
             </div>
         </div>

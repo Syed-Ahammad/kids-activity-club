@@ -1,13 +1,15 @@
-.product-container{
+.activities-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-@media screen and (max-width: 1020) {
-    .product-container{
+@media screen and (max-width: 1020px) {
+    .activities-container{
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media screen and (max-width: 500) {
-    
+@media screen and (max-width: 600px) {
+    .activities-container{
+        grid-template-columns: 1fr;
+    }
 }

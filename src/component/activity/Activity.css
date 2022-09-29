@@ -1,7 +1,7 @@
 .activity{
     display: flex;
     flex-direction: column;
-    height: 510px;
+    height: 450px;
     width: 300px;
     border: 1px solid rgba(112, 112, 112, 0.253);
     border-radius: 10px;
