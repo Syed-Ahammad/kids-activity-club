@@ -3,6 +3,7 @@
   grid-template-columns: 3fr 1fr;
   padding: 50px;
   max-width: 100%;
+  column-gap: 30px;
 }
 .card-container h1{
   display: flex;

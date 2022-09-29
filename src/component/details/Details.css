@@ -1,0 +1,27 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.about img{
+    height: 90px;
+    width: 100px;
+    border-radius: 30%;
+}
+.health{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(187, 187, 187, 0.507);
+    padding: 10px;
+    border-radius: 10px;
+}
+.health .number{
+    font-size: 32px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.health .option{
+    font-size: 20px;
+    font-weight: 400;
+}

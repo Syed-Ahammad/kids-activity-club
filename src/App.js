@@ -1,6 +1,7 @@
 import  { useEffect, useState } from 'react';
 import './App.css';
 import Activities from './component/activities/Activities';
+import Cart from './component/cart/Cart';
 
 function App() {
   const [activities, setActivities] = useState([]);
@@ -21,7 +22,7 @@ function App() {
             <Activities activities={activities} handleAddToCart={handleAddToCart}></Activities>
             
             </div>
-        <div className="selected-container"><h1>selected container</h1></div>
+        <Cart></Cart>
     </div>
   );
 }
