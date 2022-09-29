@@ -1,47 +1,98 @@
 [
     {
       "id": "63348444cb8990bb628fccf0",
-      "index": 0,
-      "isActive": false,
-      "balance": "$2,730.00",
-      "picture": "http://placehold.it/32x32",
-      "age": 23,
-      "name": "Barrera Freeman"
+      "picture": "https://www.verywellfamily.com/thmb/X7HSSTIBROckD4IxSFnJCDKBoNU=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/running_BSIP-UIG-56a2c9d35f9b58b7d0ce8a05.jpg",
+      "about": "Running is just about the simplest form of exercise there is, and it's perfect for kids' seemingly endless energy and need for speed.",
+      "time": 30,
+      "age": "8-12",
+      "activityName": "Running"
     },
     {
-      "id": "633484449135a63b5b49ffb5",
-      "index": 1,
-      "isActive": true,
-      "balance": "$2,125.06",
-      "picture": "http://placehold.it/32x32",
-      "age": 27,
-      "name": "Ella Guerrero"
+      "id": "63348444cb8990bb628fccf0",
+      "picture": "https://www.verywellfamily.com/thmb/KiDWsiwCd8fh4Sn5LMbAzIVQ2Ek=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/child_jumping_jack-07df1cb8aa8940cfafc200416f8a6c60.jpg",
+      "about":"Get those feet up and off the ground with these easy exercises. Jumps build muscle strength, cardiovascular fitness, and endurance.",
+      "time": 30,
+      "age": "8-12",
+      "activityName": "Jumping"
     },
     {
-      "id": "633484444b1adc4e24e86104",
-      "index": 2,
-      "isActive": true,
-      "balance": "$3,796.33",
-      "picture": "http://placehold.it/32x32",
-      "age": 31,
-      "name": "Patrick Miles"
+      "id": "63348444cb8990bb628fccf0",
+      "picture": "https://www.verywellfamily.com/thmb/KiDWsiwCd8fh4Sn5LMbAzIVQ2Ek=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/child_jumping_jack-07df1cb8aa8940cfafc200416f8a6c60.jpg",
+      "about":"To make exercise more fun for kids, turn it into a game. Here are some ideas from Akpan.",
+      "time": 30,
+      "age": "8-12",
+      "activityName": "Exercise Games"
     },
     {
-      "id": "63348444b8b91372793c7307",
-      "index": 3,
-      "isActive": true,
-      "balance": "$3,725.44",
-      "picture": "http://placehold.it/32x32",
-      "age": 27,
-      "name": "Rosemary Combs"
+      "id": "63348444cb8990bb628fccf0",
+      "picture": "https://www.verywellfamily.com/thmb/KiDWsiwCd8fh4Sn5LMbAzIVQ2Ek=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/child_jumping_jack-07df1cb8aa8940cfafc200416f8a6c60.jpg",
+      "about":"Playing ball games indoors or outside can be great exercise for kids. Some of the benefits include aerobic exercise, balance, and coordination practice.",
+      "time": 30,
+      "age": "8-12",
+      "activityName": "Indoor Ball Games"
     },
     {
-      "id": "63348444efee81735a4d09e0",
-      "index": 4,
-      "isActive": true,
-      "balance": "$1,962.24",
-      "picture": "http://placehold.it/32x32",
-      "age": 24,
-      "name": "Alexander Valdez"
+      "id": "63348444cb8990bb628fccf0",
+      "picture": "https://www.verywellfamily.com/thmb/KiDWsiwCd8fh4Sn5LMbAzIVQ2Ek=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/child_jumping_jack-07df1cb8aa8940cfafc200416f8a6c60.jpg",
+      "about":"Skipping can be a fun form of aerobic activity that can also challenge skills such as balance and coordination.",
+      "time": 30,
+      "age": "8-12",
+      "activityName": "Skipping"
+    },
+    {
+      "id": "63348444cb8990bb628fccf0",
+      "picture": "https://www.verywellfamily.com/thmb/Oz7QWGpZ7ah6O7h5RuVhduFW2R8=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/running-game_JGiustina-56a2c9d33df78cf77279f441.jpg",
+      "about":"Crab walk is a fun activity that also helps kids build their core and arm strength.",
+      "time": 30,
+      "age": "8-12",
+      "activityName": "Crab Walk"
+    },
+    {
+      "id": "63348444cb8990bb628fccf0",
+      "picture": "https://www.verywellfamily.com/thmb/Oz7QWGpZ7ah6O7h5RuVhduFW2R8=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/running-game_JGiustina-56a2c9d33df78cf77279f441.jpg",
+      "about":"The bear crawl is walking on all fours with your belly facing the floor.This movement can be a good whole-body exercise that challenges kids to use their limbs and core. ",
+      "time": 30,
+      "age": "8-12",
+      "activityName": "Bear Crawl"
+    },
+    {
+      "id": "63348444cb8990bb628fccf0",
+      "picture": "https://www.verywellfamily.com/thmb/Oz7QWGpZ7ah6O7h5RuVhduFW2R8=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/running-game_JGiustina-56a2c9d33df78cf77279f441.jpg",
+      "about":"Try forward, backward, and side lunges, as well as classic squats. Make it into a game by counting how many your child can do in 30-second intervals while keeping proper form.",
+      "time": 30,
+      "age": "8-12",
+      "activityName": "Squats and Lunges"
+    },
+    {
+      "id": "63348444cb8990bb628fccf0",
+      "picture": "https://www.verywellfamily.com/thmb/Oz7QWGpZ7ah6O7h5RuVhduFW2R8=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/running-game_JGiustina-56a2c9d33df78cf77279f441.jpg",
+      "about":"Hit the floor for basic exercises that work the core: Sit-ups, push-ups, and planks. Kids can do traditional abdominal crunches, bicycle crunches, legs-up sit-ups, and more.",
+      "time": 30,
+      "age": "8-12",
+      "activityName": "Sit-Ups and Push-Ups"
+    },
+    {
+      "id": "63348444cb8990bb628fccf0",
+      "picture": "https://www.verywellfamily.com/thmb/Oz7QWGpZ7ah6O7h5RuVhduFW2R8=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/running-game_JGiustina-56a2c9d33df78cf77279f441.jpg",
+      "about":"Yoga poses can be a fun and simple way for kids to exercise. A few easy and fun poses for kids to try include Tree Pose, Downward-Facing Dog, Upward-Facing Dog, Cobra, Child's Pose, and Happy Baby.",
+      "time": 30,
+      "age": "8-12",
+      "activityName": "Yoga and Stretching"
+    },
+    {
+      "id": "63348444cb8990bb628fccf0",
+      "picture": "https://www.verywellfamily.com/thmb/Oz7QWGpZ7ah6O7h5RuVhduFW2R8=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/running-game_JGiustina-56a2c9d33df78cf77279f441.jpg",
+      "about":"Yoga poses can be a fun and simple way for kids to exercise. A few easy and fun poses for kids to try include Tree Pose, Downward-Facing Dog, Upward-Facing Dog, Cobra, Child's Pose, and Happy Baby.",
+      "time": 30,
+      "age": "8-12",
+      "activityName": "Running"
+    },
+    {
+      "id": "63348444cb8990bb628fccf0",
+      "picture": "https://www.verywellfamily.com/thmb/Oz7QWGpZ7ah6O7h5RuVhduFW2R8=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/running-game_JGiustina-56a2c9d33df78cf77279f441.jpg",
+      "about":"Yoga poses can be a fun and simple way for kids to exercise. A few easy and fun poses for kids to try include Tree Pose, Downward-Facing Dog, Upward-Facing Dog, Cobra, Child's Pose, and Happy Baby.",
+      "time": 30,
+      "age": "8-12",
+      "activityName": "Running"
     }
   ]
