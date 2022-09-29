@@ -4,4 +4,13 @@
     row-gap: 30px;
     position: sticky;
     top: 0;
+    height: 80vh;
+}
+.btn-complete{
+    width: 100%;
+    background: green;
+    color: white;
+    border: 1px solid #95A0A7;
+    border-radius: 10px;
+    padding: 10px;
 }

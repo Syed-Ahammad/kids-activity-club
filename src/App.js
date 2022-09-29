@@ -5,6 +5,7 @@ import Cart from './component/cart/Cart';
 
 function App() {
   const [activities, setActivities] = useState([]);
+  const [active, setActive] = useState(0)
 
         useEffect(()=>{
           fetch('data.json')
@@ -12,8 +13,11 @@ function App() {
           .then(data => setActivities(data));
         },[]);
         // console.log(activities);
+        let totalActive = 0;
   const handleAddToCart = (activity)=>{
-    console.log(activity);
+    totalActive = active + parseInt(activity.time);
+    setActive(totalActive);
+    console.log(totalActive);
   }
   return (
     <div className='App'>
@@ -22,7 +26,7 @@ function App() {
             <Activities activities={activities} handleAddToCart={handleAddToCart}></Activities>
             
             </div>
-        <Cart></Cart>
+        <Cart active={active}></Cart>
     </div>
   );
 }

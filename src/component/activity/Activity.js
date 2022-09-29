@@ -10,7 +10,7 @@ const Activity = ({activity, handleAddToCart}) => {
             <div>
             <p>{about}</p>
             <p>For Age: {age}</p>
-            <p>Rating: {time} Min</p>
+            <p>Time required: {time} Min</p>
             </div>
             <button onClick={() =>handleAddToCart(activity)}><p>Add to list</p></button>
         </div>

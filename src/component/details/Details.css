@@ -5,19 +5,18 @@
     gap: 20px;
 }
 .about img{
-    height: 90px;
-    width: 100px;
+    height: 70px;
+    width: 90px;
     border-radius: 30%;
 }
 .health{
     display: flex;
     justify-content: space-around;
     background-color: rgba(187, 187, 187, 0.507);
-    padding: 10px;
     border-radius: 10px;
 }
 .health .number{
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 600;
     font-family: sans-serif;
 }
