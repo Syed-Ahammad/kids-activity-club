@@ -5,7 +5,7 @@ const addToDb = time =>{
 }
 
 const getaddedBreak = ()=>{
-    let breakTime = {};
+    let breakTime = [0];
 
     //get the shopping cart from local storage
     const addedBreak = localStorage.getItem('break-time');

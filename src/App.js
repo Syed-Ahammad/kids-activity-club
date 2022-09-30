@@ -2,6 +2,7 @@ import  { useEffect, useState } from 'react';
 import './App.css';
 import Activities from './component/activities/Activities';
 import Cart from './component/cart/Cart';
+import Quation from './component/quations/Quation';
 
 function App() {
   const [activities, setActivities] = useState([]);
@@ -17,7 +18,7 @@ function App() {
   const handleAddToCart = (activity)=>{
     totalActive = active + parseInt(activity.time);
     setActive(totalActive);
-    console.log(totalActive);
+    // console.log(totalActive);
   }
   return (
     <div className='App'>
@@ -25,8 +26,9 @@ function App() {
             <h1> <img src="logo.jpg" alt="" /> Kids Activity Club</h1>
             <Activities activities={activities} handleAddToCart={handleAddToCart}></Activities>
             
-            </div>
+       </div>
         <Cart active={active}></Cart>
+        <Quation></Quation>
     </div>
   );
 }

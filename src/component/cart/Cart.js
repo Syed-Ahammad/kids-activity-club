@@ -4,6 +4,7 @@ import ActivityDetails from '../activityDetails/ActivityDetails';
 import Break from '../break/Break';
 import { addToDb, getaddedBreak } from '../localstotage/localstorage';
 import './Cart.css'
+import Swal from 'sweetalert2'
 
 const Cart = ({active}) => {
     const [addBreak, setAddBreak] = useState([0]);
@@ -24,13 +25,20 @@ const Cart = ({active}) => {
         setAddBreak(time)
         addToDb(time)
     }
+    const completeAlert = ()=>{
+            Swal.fire(
+            'Good job!',
+            'Your Activity Complete!',
+            'success'
+            )
+    }
     return (
         <div>
             <div className="selected-container">
             <About></About>
             <Break breakTime={breakTime} addToBreak={addToBreak}></Break>
             <ActivityDetails addBreak={addBreak} active={active}></ActivityDetails>
-            <button className='btn-complete'>Activity Completed</button>
+            <button onClick={completeAlert} className='btn-complete'>Activity Completed</button>
             </div>
         </div>
     );
