@@ -25,10 +25,10 @@ function App() {
       <div className="card-container">
             <h1> <img src="logo.jpg" alt="" /> Kids Activity Club</h1>
             <Activities activities={activities} handleAddToCart={handleAddToCart}></Activities>
+            <Quation></Quation>
             
        </div>
         <Cart active={active}></Cart>
-        <Quation></Quation>
     </div>
   );
 }

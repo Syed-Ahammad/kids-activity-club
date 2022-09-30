@@ -9,17 +9,17 @@ const Quation = () => {
             </div>
             <div className='quation'>
                 <h3>Why using useEffect in react besides fetching data?</h3>
-                <p>5 use cases of the useState ReactJS hook
+                <ol>5 use cases of the useState ReactJS hook
                     <li>Running on state change: validating input field</li>
                     <li>Running on state change: live filtering</li>
                     <li>Running on state change: trigger animation on new array value</li>
                     <li>Running on props change: update paragraph list on fetched API data update</li>
                     <li>Running on props change: updating fetched API data to get BTC updated price</li>
-                </p>
+                </ol>
             </div>
             <div className='quation'>
                 <h3>What does different betWeen Props and state?</h3>
-                <p>
+                <div>
                     <ol>Props: 
                         <li>Props are read-only.</li>
                         <li>Props are immutable.</li>
@@ -32,7 +32,7 @@ const Quation = () => {
                         <li>State cannot be accessed by child components.</li>
                         <li>States can be used for rendering dynamic changes with the component.</li>
                     </ol>
-                    </p>
+                    </div>
             </div>
             
         </div>

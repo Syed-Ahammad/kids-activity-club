@@ -1,0 +1,6 @@
+.quation-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    z-index: -1;
+}

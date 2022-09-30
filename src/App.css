@@ -19,6 +19,6 @@
 @media screen and (max-width: 600px) {
   .App{
     grid-template-columns: 1fr;
-    margin: auto;
+   row-gap: 30px;
   }
 }
